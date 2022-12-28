@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GITHUB</title>
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="./images/octcat.png" />
+</head>
+
+<body>
+<div class="container">
+  <!-- page left part -->
+  <div class="result_card card">
+      <fieldset class="fieldset">
+        <legend class="header">Result</legend>
+
+        <div class="result-container">
+
+          <div class="upper-info">
+            <div class="user-image"></div>
+            <div class="user-name"></div>
+            <div class="user-blog"></div>
+            <div class="user-location"></div>
+          </div>
+          <div class = 'lower-info'>
+            <div class = "user-bio"></div>
+          </div>
+
+        </div>
+
+        <div class="result-info"></div>
+<!--        <div class="fetch-info"></div>-->
+
+      </fieldset>
+  </div>
+  <!-- page right part -->
+  <div class="form_card card">
+    <form class="form_card_content">
+      <fieldset class="fieldset">
+        <legend class="header">Username</legend>
+        <input type="text" id="name" maxlength="255" pattern="[A-Za-z0-9 ]+" required>
+        <br><br>
+        <br>
+        <button class="submit button">submit</button><br>
+      </fieldset>
+    </form>
+    <div class="action_result"></div>
+  </div>
+</div>
+<script src="./js/index.js"></script>
+</body>
+
+</html>

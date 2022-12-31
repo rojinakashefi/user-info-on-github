@@ -1,6 +1,6 @@
 /*
-    Add background image and set the container div.
-    - The goal here is a background image on a website that covers the entire browser window at all times.
+       Add background image and set the container div.
+       background image covers the entire browser window at all times.
 */
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 /*
-    The container holds all objects in this page. for that I use flex display.
+    The container holds all objects in this page. use flex display.
 */
 
 .container {
@@ -67,6 +67,7 @@ body {
 /*
     All Buttons unic style
 */
+
 .button {
   width: 120px;
   height: 25px;
@@ -77,28 +78,18 @@ body {
   border-radius: 10px;
 }
 
-/*
-    saved Answer section style
-*/
-
-/*.user-image{*/
-/*  display: none;*/
-/*}*/
-/*.user-bio{*/
-/*  border:5px red;*/
-/*  display: none;*/
-/*}*/
-
-/*.user-info{*/
-/*  display: none;*/
-/*}*/
-
 .result-container{
   display: none;
 }
 
-/*    Error section*/
-/**!*/
-.action_result {
-  display: none;
+.upper-info {
+  display: flex;
+  gap: 1rem;
+}
+.upper-info img {
+  width: 100%;
+  height: auto;
+}
+.user-image, .user-info {
+  flex: 1;
 }

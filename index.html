@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- define meta data of html-->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
   <link rel="icon" type="image/png" href="./images/octcat.png" />
 </head>
 
+<!-- consists of two cards one for submitting username and one for showing result-->
 <body>
 <div class="container">
   <!-- page left part -->
@@ -22,9 +24,12 @@
 
           <div class="upper-info">
             <div class="user-image"></div>
-            <div class="user-name"></div>
-            <div class="user-blog"></div>
-            <div class="user-location"></div>
+            <div class="user-info">
+              <div class="user-name"></div>
+              <div class="user-blog"></div>
+              <div class="user-location"></div>
+              <div class="user-language"></div>
+            </div>
           </div>
           <div class = 'lower-info'>
             <div class = "user-bio"></div>
@@ -33,7 +38,7 @@
         </div>
 
         <div class="result-info"></div>
-<!--        <div class="fetch-info"></div>-->
+        <div class="fetch-info"></div>
 
       </fieldset>
   </div>
@@ -48,7 +53,6 @@
         <button class="submit button">submit</button><br>
       </fieldset>
     </form>
-    <div class="action_result"></div>
   </div>
 </div>
 <script src="./js/index.js"></script>

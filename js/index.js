@@ -68,6 +68,7 @@ async function fetchRepos(name){
     }
   }
 
+  console.log(language)
   var items = Object.keys(language).map((key) => { return [key, language[key]] });
 
   items.sort((first, second) => { return first[1] - second[1] });
@@ -142,4 +143,4 @@ function setInformation(obj,local_storage) {
 
 // add listener to submit button
 submitButton.addEventListener('click', getUser);
-// window.localStorage.clear();
+window.localStorage.clear();

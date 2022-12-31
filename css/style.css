@@ -82,14 +82,17 @@ body {
   display: none;
 }
 
+/* for picture and information contatiner*/
 .upper-info {
   display: flex;
   gap: 1rem;
 }
+/* image css set*/
 .upper-info img {
   width: 100%;
   height: auto;
 }
+/* user-info to make them same size*/
 .user-image, .user-info {
   flex: 1;
 }

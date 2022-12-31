@@ -54,6 +54,11 @@ function serverError(){
   resultInfo.innerHTML = "<span style='color:#ff0000;text-align: center'> Server error </span>"
 }
 
+
+// fetch reposes and sort them based on pushed by
+// make a dictionary of languages
+// count each language occurrence
+// show the most used language used for latest push
 async function fetchRepos(name){
   const resp = await fetch(`https://api.github.com/users/${name}/repos?sort=pushed_at`);
   let obj = await resp.json()
@@ -143,4 +148,4 @@ function setInformation(obj,local_storage) {
 
 // add listener to submit button
 submitButton.addEventListener('click', getUser);
-window.localStorage.clear();
+// window.localStorage.clear();

@@ -8,4 +8,4 @@
 
 ![](https://github.com/rojinakashefi/user-info-on-github/blob/main/images/pic.png)
 
-Check [here]([GITHUB](https://rojinakashefi.github.io/user-info-on-github/)).
+Check [here]((https://rojinakashefi.github.io/user-info-on-github/)).

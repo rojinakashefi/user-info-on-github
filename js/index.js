@@ -92,6 +92,7 @@ async function fetchRepos(name){
 function userNotFound(local_storage){
   resultInfo.style.display = 'block';
   resultContainer.style.display = 'none';
+  fetchInfo.style.display='block';
   resultInfo.innerHTML = "<span style='color:#ff0000;text-align: center'> user not found </span>"
   setfetchInfo(local_storage)
 }
@@ -110,6 +111,7 @@ function setfetchInfo(local_storage){
 function userFound(data,local_storage){
   resultInfo.style.display = 'none';
   resultContainer.style.display = 'block'
+  fetchInfo.style.display='block';
   setfetchInfo(local_storage)
   setInformation(data,local_storage)
 }
@@ -148,4 +150,4 @@ function setInformation(obj,local_storage) {
 
 // add listener to submit button
 submitButton.addEventListener('click', getUser);
-window.localStorage.clear();
+// window.localStorage.clear();

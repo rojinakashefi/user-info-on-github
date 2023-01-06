@@ -148,4 +148,4 @@ function setInformation(obj,local_storage) {
 
 // add listener to submit button
 submitButton.addEventListener('click', getUser);
-// window.localStorage.clear();
+window.localStorage.clear();

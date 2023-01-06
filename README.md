@@ -6,6 +6,6 @@
 
 - Handels Network errors.
 
-![](/Users/rojina/Desktop/term7/web%20development/midtermproject/images/pic.png)
+![](https://github.com/rojinakashefi/user-info-on-github/blob/main/images/pic.png)
 
 Check [here]([GITHUB](https://rojinakashefi.github.io/user-info-on-github/)).
